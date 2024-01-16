@@ -48,6 +48,14 @@
     font-size: var(--font-size-lg);
     color: var(--dark-02);
   }
+  .day-night a{
+   text-decoration: none;
+   color: inherit;
+  }
+ .home{
+    /* background-color: var(--color-orangered-200); */
+    color: var(--color-orangered-200);
+  }
   .world-class-service {
     align-self: stretch;
     align-items: center;
