@@ -163,6 +163,7 @@
     border-radius: var(--br-5xs);
     background-color: var(--color-white);
   }
+  
   .rectangle-group {
     flex: 1;
     display: flex;
@@ -2765,11 +2766,23 @@
       padding-bottom: var(--padding-7xl);
       box-sizing: border-box;
     }
-    .hero-travel1 {
+    .hero-travel1,
+    .hero-travel{
       font-size: var(--font-size-lgi);
+      
     }
     .landing-page-design {
       gap: 1.56rem;
+    }
+    .day-night{
+        display: inline;
+    }
+    .home,
+    .packages,
+    .testimonial,
+    .blog,
+    .contact{
+        display: none;
     }
   }
   
