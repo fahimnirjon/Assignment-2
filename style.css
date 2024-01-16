@@ -2647,7 +2647,8 @@
       min-width: 100%;
     }
     .enter-your-email-text,
-    .group-form {
+    .group-form,
+    .saving {
       min-width: 100%;
     }
     .watch-mountain-frame {
@@ -2668,6 +2669,9 @@
     }
     .child-containers-d {
       min-width: 100%;
+    }
+    .saving{
+        display:contents;     
     }
     .choose-your-destination {
       font-size: var(--font-size-5xl);
